@@ -1,10 +1,31 @@
 nav {
     text-align: center;
+    margin-bottom: 50px;
 }
-
-#icon {
+#logo {
     height: 10%;
     width: 10%;
+}
+#icon {
+
+    height: 5%;
+    width: 5%;
+    margin-bottom: 10px;
+}
+#icon2 {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    /* align-items: flex-start; */
+    
+}
+h2 {
+    font-size: 40pt;
+    /* float: left; */
+    margin: 2%;
+    text-align: left;
 }
 
 h1 {
@@ -30,6 +51,7 @@ a {
 
 hr {
     color: grey;
+    margin-top: 1rem;
 }
 
 img {
@@ -38,5 +60,70 @@ img {
     align-items: center;
     
 }
+#Vanessa {
+    height: 10%;
+    width: 10%;
+}
+#bio{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+hr{
+background-color: gray;
+height: 20px;
+margin-top: 10px;
 
+}
+#logoFooter {
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
+div{
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+flex-wrap: wrap;
+position: absolute;
+height: 300px;
+width: 800px;
 
+}
+#list{
+    font-size: 20pt;
+    position:absolute ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#list-background {
+display: flex;
+justify-content: center;
+position: absolute;
+height: 300px;
+width: 800px;
+align-items: center;
+margin-top: 40px;
+margin-left: 50px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: left;
+    margin: 1rem;
+}
+footer{
+    flex-direction: column;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
