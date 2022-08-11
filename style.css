@@ -35,7 +35,7 @@ h1 {
     margin: 0;
     text-align: left;
     font-family: '';
-    font-size: 50pt;
+    font-size: 40pt;
 }
 
 p {
@@ -55,12 +55,16 @@ hr {
 }
 
 img {
-    height: 100%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
     align-items: center;
     
 }
 #Vanessa {
+    display: flex;
+    justify-content: flex-start;
     height: 10%;
     width: 10%;
 }
@@ -114,6 +118,7 @@ align-items: center;
 margin-top: 40px;
 margin-left: 50px;
 }
+
 section{
     display: flex;
     flex-direction: row;
