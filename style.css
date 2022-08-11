@@ -1,1 +1,37 @@
+nav {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    font-family: '';
+    font-size: 50pt;
+}
+
+p {
+    color: grey;
+    font-family:'';
+    text-align: left;
+}
+
+a {
+    font-family: '';
+    font-size: 25pt;
+}
+
+hr {
+    color: grey;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    
+}
+
 
